@@ -11,14 +11,16 @@
             color: white;
             width:200px;
             height:200px;
-            line-height: 200px;
+            line-height: 100px;
             text-align: center;
         }
     </style>
 </head>
 <body>
     <div id="area">
-        interaja...
+        interaja nessa 
+        <br>
+        área
     </div>
     <script>
         var a = window.document.getElementById('area')
@@ -33,7 +35,7 @@
         }
         function entrar (){
             a.innerText = "entrou!"
-            a.style.backgroundColor = 'red'
+            a.style.backgroundColor = '#895895' //estava procurando uma cor em fomar nominal e não achei nenhuma boa. E resolvi colocar uma hexadecimal aleatória. A cor ficou boa :) //
         }
         function sair(){
             a.innerText = 'saiu!'
